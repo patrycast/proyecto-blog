@@ -1,0 +1,39 @@
+.container{
+    background-color: rgb(102, 73, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin:20px;
+    border-radius: 15px;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px;
+    object-fit: cover;
+}
+.subtitle{
+   display:flex; gap:20px;
+}
+.author{
+    font-weight: 800;
+    padding-left: 15px;
+}
+.btnVerMas{
+    padding:10px 20px;
+    background: rgb(32, 6, 148);
+    color:white;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    transition: color 1s;
+}
+.btnVerMas:hover{
+    color: rgb(32, 6, 148);
+    background-color:white;
+    transition: background-color 0.5s;
+    transition: color 1s;
+}
